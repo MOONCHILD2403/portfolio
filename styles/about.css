@@ -1,0 +1,14 @@
+.personal_info {
+    display: flex;
+    /* border: 2px solid red; */
+}
+/* .personal_info :first-child{
+    display: flex;
+} */
+progress{
+    width: 20rem;
+}
+image{
+    width:100%;
+    height:auto;
+}

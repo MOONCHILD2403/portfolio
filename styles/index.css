@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    font: 1em 'Courier New', Courier, monospace;
+    color: azure;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    height:500vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div{
+    display: flex;
+    margin: 0.5em;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.name{
+    flex-basis: 300rem;
+    justify-content: center;
+}
+.name div{
+    font-size: 40px;
+    font-weight:bolder;
+}
+
+.intro{
+    margin-left:2.5rem;
+    font-size: 30px;
+    display: flex;
+    align-items: top;
+    justify-content: space-around; 
+}
+
+.bg-img img{
+    width :600px;
+    height:auto;
+}
